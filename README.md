@@ -18,8 +18,8 @@ python3 scripts/run_doctor.py --help
 
 ## Intended install flow
 
-If this repository is published, users should be able to install the skill with:
+Users can install the skill with:
 
 ```bash
-npx skills add <owner/repo> --skill python-skill-doctor
+npx skills add GhostFlying/python-skill-doctor --skill python-skill-doctor
 ```
