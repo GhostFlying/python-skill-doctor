@@ -113,5 +113,5 @@ python scripts/package_skill.py
 If publishing through Vercel's skills CLI, prefer keeping this skill at `skills/python-skill-doctor/` in the repository so users can install it with:
 
 ```bash
-npx skills add <owner/repo> --skill python-skill-doctor
+npx skills add GhostFlying/python-skill-doctor --skill python-skill-doctor
 ```

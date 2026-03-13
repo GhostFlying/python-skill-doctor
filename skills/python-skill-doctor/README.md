@@ -50,5 +50,5 @@ python scripts/run_doctor.py docs ~/.agents/skills/codebase--codebase --format p
 From a published repo containing this layout, users can install with:
 
 ```bash
-npx skills add <owner/repo> --skill python-skill-doctor
+npx skills add GhostFlying/python-skill-doctor --skill python-skill-doctor
 ```

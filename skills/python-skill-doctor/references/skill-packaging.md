@@ -49,4 +49,4 @@ This wrapper makes the skill self-contained for local usage because it injects `
 
 If this skill is installed via symlink, the target skills it repairs may resolve to real filesystem paths. That is acceptable for diagnostic output, but generated `SKILL.md` content should remain relative to the repaired skill root.
 
-For Vercel's skills CLI, the recommended repo shape is a multi-skill container with this skill located under `skills/python-skill-doctor/` so users can install it with `npx skills add <repo> --skill python-skill-doctor`.
+For Vercel's skills CLI, the recommended repo shape is a multi-skill container with this skill located under `skills/python-skill-doctor/` so users can install it with `npx skills add GhostFlying/python-skill-doctor --skill python-skill-doctor`.
